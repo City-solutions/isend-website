@@ -210,6 +210,33 @@
     padding-top: 1em;
 }
 
+.card{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: 1s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    max-height: 400px;
+    min-height: 300px;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.card-img-top{
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
 .features-heading{
     background-color: #F0FFFF;
     padding: 90px 90px 30px 30px;
