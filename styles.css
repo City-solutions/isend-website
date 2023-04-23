@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: blue;
+    background-color: #3751FF;
     color: #fff;
     }
     
@@ -150,11 +150,11 @@
 .grid-container {
     display: grid;
     grid-template-columns: 50% 50%;
-    background-color: blue;
+    background-color: #3751FF;
     padding: 10px;
   }
   .grid-item {
-    background-color:blue;
+    background-color:#3751FF;
     /* border: 1px solid rgba(0, 0, 0, 0.8); */
     padding-left: 50px;
     font-size: 30px;
@@ -170,7 +170,7 @@
     text-align: center;
     border: none;
     outline: none;
-    color: blue;
+    color: #3751FF;
     font-size: 21px;
     font-weight: 600;
     border-radius: 20px;
