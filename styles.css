@@ -105,7 +105,7 @@
         }
 
 .content{
-    padding-left: 0px;
+    padding-left: 50px;
 }
 .content .text{
     position: relative;
@@ -147,6 +147,9 @@
 
 
 /* Features */
+.features {
+    background-color: #F0FFFF;
+}
 .grid-container {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -188,6 +191,9 @@
 
 
 /* features */
+.features{
+    background-color: #F0FFFF;
+}
 
 .features .grid-container{
     background:#F0FFFF;
@@ -197,7 +203,7 @@
     gap: 2em;
 }
 
-.features .grid-container .grid-item h1{
+.features h1{
     font-size: 20px;
     font-weight: 850;
     margin-top: 1em;
@@ -210,9 +216,10 @@
     padding-top: 1em;
 }
 
-.features-heading{
+.features .feat-heading{
     background-color: #F0FFFF;
-    padding: 90px 90px 30px 30px;
+    font-size: 25px;
+    padding:  30px;
 }
 
 /* footer */
@@ -368,7 +375,7 @@ footer p{
 }
 
 
-
+/* 
 
 
 .card{
@@ -395,4 +402,4 @@ footer p{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 
-}
+} */
