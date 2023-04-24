@@ -175,6 +175,12 @@
     border-radius: 20px;
 }
 
+.app-features{
+    background-color: #F0FFFF;;
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+}
+
 
 /* isend */
 .isend{
@@ -191,6 +197,7 @@
 
 .features .grid-container{
     background:#F0FFFF;
+    text-align: center;
 }
 .features .grid-container .grid-item{
     background-color: #F0FFFF;
