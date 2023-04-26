@@ -21,13 +21,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
     background-color: #3751FF;
     color: #fff;
     }
 
     .nav-links a {
     color: #fff;
+    
     }
 
     /* LOGO
@@ -45,7 +46,7 @@
     display: flex;
     gap: 1em;
     font-size: 18px;
-    padding-right: 190px;
+    padding-right:160px;
     }
 
     .menu li:hover {
@@ -53,10 +54,13 @@
     /* color: red; */
     border-radius: 5px;
     transition: 0.3s ease;
+    text-decoration: none;
     }
 
     .menu li {
-    padding: 5px 14px;
+    padding: -90px 5px 5px 5px;
+    text-decoration: none;
+
     }
 
 
@@ -67,7 +71,7 @@
         /* HAMBURGER MENU */
         .hamburger {
         display: none;
-        font-size: 24px;
+        font-size: 20px;
         user-select: none;
         }
 
@@ -77,24 +81,28 @@
         display:none;
         position: absolute;
         background-color:#3751FF;
-        right: 0;
-        left: 0;
+        right: 50;
+        left: 10;
         text-align: center;
-        padding: 16px 0;
+        padding-left: -39px;
+        height: 100%;
+        width: 60%;
+        float:right;
         }
 
-        /* .menu li:hover {
+        .menu li:hover {
         display: inline-block;
-        background-color:#4c9e9e;
+        background-color:#F0FFFF;
         transition: 0.3s ease;
-        } */
+        }
 
         .menu li + li {
-        margin-top: 12px;
+        margin-top: 2px;
+
         }
 
         input[type=checkbox]:checked ~ .menu {
-        display: block;
+        display: inline-block;
         }
 
         .hamburger {
@@ -299,7 +307,7 @@ footer p{
     }
 
     .features .grid-container .grid-item h1{
-        color: pink;
+        color: black;
     }
 
 
@@ -327,33 +335,3 @@ footer p{
         transform: translateY(0);
     }
 }
-
-
-/* 
-
-
-.card{
-    position: relative;
-    width: 100%;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    transition: 1s;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    max-height: 400px;
-    min-height: 300px;
-}
-
-.card:hover{
-    transform: translateY(-10px);
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
-}
-
-.card-img-top{
-    height: 200px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-
-} */
