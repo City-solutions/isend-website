@@ -23,7 +23,9 @@
     justify-content: space-between;
     padding: 10px;
     background-color: #3751FF;
-    color: #fff;
+    /* background-color:white; */
+    /* color: #3751FF; */
+    width: 100%;
     }
 
     .nav-links a {
@@ -79,15 +81,31 @@
         @media (max-width: 768px) {
         .menu {
         display:none;
-        position: absolute;
+        position: relative;
         background-color:#3751FF;
+        /* background-color: white; */
+        /* color: #3751FF; */
+
         right: 50;
-        left: 10;
-        text-align: center;
-        padding-left: -39px;
+        left: 4;
+        text-align: center; 
+        margin-left: -69px;
+        margin-top: 39px;
         height: 100%;
-        width: 60%;
+        width: 30px;
         float:right;
+        }
+
+        .navbar{
+            color: red;
+        }
+
+        .hamburger {
+            float: right;
+        }
+
+        .menu li{
+            color: red;
         }
 
         .menu li:hover {
@@ -104,7 +122,6 @@
         input[type=checkbox]:checked ~ .menu {
         display: inline-block;
         }
-
         .hamburger {
         display: block;
         }
@@ -116,7 +133,7 @@
     padding-left: 50px;
 }
 .content .text{
-    position: relative;
+    /* position: relative; */
     max-width: 810px;
 
 }
@@ -297,7 +314,7 @@ footer p{
 }
 
 /* responsive */
-@media screen and (min-width:250px) and (max-width:480px) {
+/* @media screen and (min-width:250px) and (max-width:480px) {
     .grid-container{
         display: grid;
         grid-template-columns: 100%;
@@ -316,9 +333,9 @@ footer p{
     .features .grid-container .grid-item h1{
         color: black;
     }
+ */
 
-
-}
+/* } */
 
 /* make the whole page very interactive */
 .img-front{
