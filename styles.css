@@ -22,9 +22,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    background-color: #3751FF;
-    /* background-color:white; */
-    /* color: #3751FF; */
+    /* background-color: #3751FF; */
+    background-color:white;
+    color: #3751FF;
     width: 100%;
     }
 
@@ -42,6 +42,9 @@
        margin-left: 20px;
     }
 
+    .logo{
+        font-weight: bold;
+    }
 
     /* NAVBAR MENU */
     .menu {
@@ -96,16 +99,9 @@
         float:right;
         }
 
-        .navbar{
-            color: red;
-        }
-
+      
         .hamburger {
             float: right;
-        }
-
-        .menu li{
-            color: red;
         }
 
         .menu li:hover {
